@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Typo
+    </title>
+    <style type="text/css">
+      html, body, p, pre, ol, li {
+        margin: 0px;
+        padding: 0px;
+      }
+      .left {
+        float: left;
+      }
+      .right {
+        float: right;
+      }
+      body {
+        color: #000;
+        background-color: #fff;
+        font-family:  Georgia, serif;
+      }
+      a {
+        /*color: #6B9BE6;*/
+        color: rgb(66, 129, 226);
+        /*color: rgb(71, 71, 224);*/
+      }
+      img {
+        display: block;
+        width: 24rem;
+        height: auto;
+        margin: 3rem auto;
+      }
+      article {
+        max-width: 720px;
+        font-size: 1.4rem;
+        margin: 5rem auto 0 auto;
+      }
+      article p {
+        line-height: 1.6;
+        margin-bottom: 18px;
+      }
+      article p.section-header {
+        color: #2a2a2a;
+        font-family: verdana;
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: 6px !important;
+      }
+      code {
+        padding: 4px 8px;
+        border-radius: 3px;
+        background-color: #ececec;
+      }
+      ul {
+        margin: 0px 0px 18px 0px;
+      }
+      ul li {
+        line-height: 1.6;
+        margin: 18px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <p>
+          Hi! I'm <a href="https://github.com/gruns">Ansgar</a>! 👋 You
+          probably got an email from me.
+      </p>
+      <p>
+          If you're like me, you get a lot of email.
+      </p>
+      <p>
+          I noticed, over time, that I spent a growing and appreciable
+          portion of my time with email on grammar, formatting, and
+          misspellings.
+      </p>
+      <p>
+          Typos.
+      </p>
+      <p>
+          But is that time well spent? I don't think so. Email's
+          ingrained expecation is that every paragraph is well formatted
+          and every sentence error free. I loathe that expectation.
+      </p>
+
+      <p>
+          At first, I tried adding <code>Sent from my iPad</code> to
+          mollify any ire about brevity or mistakes in my emails. (I've
+          never owned an iPad.) But I came to want something beyond just
+          blunting email's onerous expectation.
+      </p>
+
+      <p>
+          So I built Typo. It's an
+          <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Minor-Modes.html">Emacs
+          minor mode</a> that purposefully makes my emails a little
+          worse, but just so, in return for celerity.
+      </p>
+      <p>
+          Here's how it works:
+      </p>
+      <ul>
+          <li>
+              Mispelled words aren't highlighted nor
+              autocorrected. Typos remain.
+          </li>
+          <li>
+              The first word of short, standalone sentences is
+              uncapitalizes. E.g. <code>Great! See you at 2pm</code>
+              becomes <code>great! see you at 2pm</code>.
+          </li>
+
+          <li>
+              Backwards searches
+              (<a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Isearch.html"><code>C-r</code></a>
+              in Emacs) now have an artificial 1 second delay to deter
+              correcting text already written.
+          </li>
+
+          <li>
+              The last period of every paragraph's last sentence is
+              removed. They're unnecessary; the whitespace of line
+              breaks suffices.
+          </li>
+      </ul>
+      <p>
+          In short, Typo is a little tool to retrain my brain to get my
+          point(s) across swiftly and get back to other things.
+      </p>
+      <p>
+          I hope my emails remain intelligible.
+      </p>
+      <p>
+          If you have any thoughts on Typo, please
+          <a href="mailto:grunseid@gmail.com">email me</a> and let me
+          know. (Irony intended. 🙂)
+      </p>
+    </article>
+
+    <img src="logo.svg" class="header"/>
+
+    <script async src="https://arc.io/widget.js?LjCpWb6H36gGyiu7vRJaNW"></script>
+  </body>
+</html>
