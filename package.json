@@ -1,0 +1,21 @@
+{
+  "name": "typo",
+  "version": "1.0.0",
+  "description": "Celerity in Email",
+  "scripts": {
+    "build": "turndown index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruns/typo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gruns/typo/issues"
+  },
+  "homepage": "https://github.com/gruns/typo#readme",
+  "devDependencies": {
+    "turndown": "^7.0.0"
+  }
+}
