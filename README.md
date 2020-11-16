@@ -6,7 +6,7 @@ I noticed, over time, that I spent a growing and appreciable portion of my time 
 
 Typos.
 
-But is that time well spent? I don't think so. Email's ingrained expecation is that every paragraph is well formatted and every sentence error free. I loathe that expectation.
+But is that time well spent? I don't think so. Email's ingrained expecation is that every paragraph be well formatted and every sentence error free. I loathe that expectation.
 
 At first, I tried adding `Sent from my iPad` to mollify any mewling about my emails' brevity or mistakes. (I've never owned an iPad.) But I came to want something beyond blunting email's onerous expectation.
 
@@ -25,4 +25,4 @@ I hope my emails remain intelligible.
 
 If you have any thoughts on Typo, please [email me](mailto:grunseid@gmail.com) and let me know. (Irony intended. 🙂)
 
-![](logo.svg | width=340px)
+![](logo.svg)
