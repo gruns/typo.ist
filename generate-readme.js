@@ -16,6 +16,7 @@
 //
 
 const fs = require('fs').promises
+const cheerio = require('cheerio')
 const TurndownService = require('turndown')
 
 const cl = console.log
@@ -34,7 +35,14 @@ function polishTouchdownOutput (markdown) {
     const html = (await fs.readFile('index.html')).toString()
     const markdown = turndown.turndown(html)
 
-    const output = polishTouchdownOutput(markdown)
+    let output = polishTouchdownOutput(markdown)
+
+    // Replace the logo in markdown with the HTML <img> tag so the CSS
+    // styles are included. It's impossible to size an SVG in markdown.
+    const $ = cheerio.load(html)
+    const $logo = $('img[src="logo.svg"]')
+    output = output.replace('![typo](logo.svg)', $logo)    
+
     await fs.writeFile('README.md', output)
 
     cl(output)

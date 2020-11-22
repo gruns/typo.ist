@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/gruns/typo#readme",
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "turndown": "^7.0.0"
   }
 }
