@@ -25,4 +25,4 @@ I hope my emails remain intelligible.
 
 If you have any thoughts on Typo, please [email me](mailto:grunseid@gmail.com) and let me know. (Irony intended. 🙂)
 
-![](logo.svg)
+<img src="logo.svg" alt="typo" style="width:24rem; height:auto; margin: 3rem auto 0 auto">
