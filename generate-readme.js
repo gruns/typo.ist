@@ -23,19 +23,14 @@ const cl = console.log
 const turndown = new TurndownService()
 
 
-function polishTouchdownOutput (markdown) {
-    // Remove the title and CSS in the first two lines.
-    const lines = markdown.split(/\r?\n/)
-    lines.splice(0, 2)
-    return lines.join('\n')
-}
-
-
 ;(async function main () {
     const html = (await fs.readFile('index.html')).toString()
     const markdown = turndown.turndown(html)
 
-    let output = polishTouchdownOutput(markdown)
+    // Remove the title and CSS in the first two lines.
+    const lines = markdown.split(/\r?\n/)
+    lines.splice(0, 2)
+    let output = lines.join('\n')
 
     // Replace the logo in markdown with the HTML <img> tag so the CSS
     // styles are included. It's impossible to size an SVG in markdown.
