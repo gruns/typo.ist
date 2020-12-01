@@ -15,7 +15,7 @@ So I built Typo. It's an [Emacs minor mode](https://www.gnu.org/software/emacs/m
 Here's how it works:
 
 *   Mispelled words aren't highlighted nor autocorrected. Typos remain.
-*   The first word of short, standalone sentences is uncapitalizes. E.g. `Great! See you at 2pm` becomes `great! see you at 2pm`.
+*   The first word of short, standalone sentences is uncapitalized. E.g. `Great! See you at 2pm` becomes `great! see you at 2pm`.
 *   Backwards searches ([`C-r`](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Isearch.html) in Emacs) now have an artificial 1 second delay to deter correcting text already written.
 *   The trailing period of every paragraph's last sentence is removed. They're unnecessary; the whitespace of line breaks suffices.
 
@@ -25,4 +25,4 @@ I hope my emails remain intelligible.
 
 If you have any thoughts on Typo, please [email me](mailto:grunseid@gmail.com) and let me know. (Irony intended. 🙂)
 
-<img src="logo.svg" alt="typo" style="width:24rem; height:auto; margin: 3rem auto 0 auto">
+<img src="logo.svg" alt="typo" style="width:24rem; height: auto; display: block; margin: 3rem auto 0 auto">
