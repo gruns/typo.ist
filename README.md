@@ -8,7 +8,7 @@ Typos.
 
 But is that time well spent? I don't think so. Email's ingrained expecation is that every paragraph be well formatted and every sentence error free. I loathe that expectation.
 
-At first, I tried adding `Sent from my iPad` to mollify any mewling about my emails' brevity or mistakes. (I've never owned an iPad.) But I came to want something beyond blunting email's onerous expectation.
+At first, I added `Sent from my iPad` to mollify any mewling about my emails' brevity or mistakes. (I've never owned an iPad.) But I came to want something beyond blunting email's onerous expectation.
 
 So I built Typo. It's an [Emacs minor mode](https://www.gnu.org/software/emacs/manual/html_node/emacs/Minor-Modes.html) that purposefully makes my emails a little worse, but just so, in return for celerity.
 
