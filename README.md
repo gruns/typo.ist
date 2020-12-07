@@ -18,7 +18,7 @@ Here's how it works:
 *   The first word of short, standalone sentences is uncapitalized. E.g. `Great! See you at 2pm` becomes `great! see you at 2pm`.
 *   Backwards searches ([`C-r`](https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic-Isearch.html) in Emacs) now have an artificial 1 second delay to deter correcting text already written.
 *   The trailing period of every paragraph's last sentence is removed. They're unnecessary; the whitespace of line breaks suffices.
-*   Apostrophes in obvious contractions are removed. E.g. `Don't sweat it!` becomes `dont sweat it!`. Apostrophes in ambiguous contractions, like `we'll` (we will), remain.
+*   Apostrophes in obvious contractions are removed. E.g. `Don't sweat it!` becomes `dont sweat it!`.
 
 In short, Typo is a little tool to retrain my brain to get my point(s) across swiftly and get back to other things.
 
