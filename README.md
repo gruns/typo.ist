@@ -24,6 +24,6 @@ In short, Typo is a little tool to retrain my brain to get my point(s) across sw
 
 I hope my emails remain intelligible.
 
-If you have any thoughts on Typo, please [email me](mailto:grunseid@gmail.com) and let me know. (Irony intended. 🙂)
+If you have any thoughts on Typo, please [email me](mailto:grunseid@gmail.com) (irony intended 🙂) and let me know.
 
 <img src="logo.svg" alt="typo" style="width:24rem; height: auto; display: block; margin: 3rem auto 0 auto">
