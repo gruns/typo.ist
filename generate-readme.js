@@ -23,6 +23,14 @@ const cl = console.log
 const turndown = new TurndownService()
 
 
+const headerComment = `\n
+[//]: # (//////////////////////////////////////////////////////////////////////)
+[//]: #
+[//]: # DO NOT MODIFY THIS FILE. Modify index.html and run generate-readme.js.
+[//]: #
+[//]: # (//////////////////////////////////////////////////////////////////////)
+\n\n`
+
 ;(async function main () {
     const html = (await fs.readFile('index.html')).toString()
     const markdown = turndown.turndown(html)
@@ -30,14 +38,15 @@ const turndown = new TurndownService()
     // Remove the title and CSS in the first two lines.
     const lines = markdown.split(/\r?\n/)
     lines.splice(0, 2)
-    let output = lines.join('\n')
+    let body = lines.join('\n')
 
     // Replace the logo in markdown with the HTML <img> tag so the CSS
     // styles are included. It's impossible to size an SVG in markdown.
     const $ = cheerio.load(html)
     const $logo = $('img[src="logo.svg"]')
-    output = output.replace('![typo](logo.svg)', $logo)    
+    body = body.replace('![typo](logo.svg)', $logo)
 
+    const output = headerComment + body
     await fs.writeFile('README.md', output)
 
     cl(output)
